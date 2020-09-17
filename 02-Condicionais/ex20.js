@@ -9,13 +9,14 @@
 // - Você terá a seguinte variável no código: diaSemana
 // - Para esse exercício você deve usar na condição do if o operador && para juntar as condições lógicas junto ao operador diferente de(!=).
 
-var diaSemana = ["sabado", "domingo"]
+var diaSemana = 'domingo'
 
-if (!diaSemana == "sabado" && "domingo")
-    {  
-       console.log("Você pode ir ao banco")
+// Seu código aqui
+if (diaSemana != "sabado" && diaSemana != "domingo")
+    {  
+       console.log("Você pode ir ao banco")
     }
 else
     {
-       console.log("O banco está fechado, tente outro dia")
+       console.log("O banco está fechado, tente outro dia")
     }
